@@ -46,13 +46,50 @@ addSpan();
 
 //Question 6
 //NEED ANSWER
-let addParagraph = document.querySelector(".content");
+let addParagraph = document.querySelectorAll(".content");
 
 function pushParagraph() {
-  addParagraph.push = "<p>""</p>";
+  addParagraph.push = "<p>";
 }
 
 pushParagraph();
 
 //Question 7
+//NEED ANSWER
+let addClass = document.querySelector(".content");
 
+function contentItem() {
+  addClass.innerHTML = "<.content-item>" + addClass.innerHTML + "</.content-item>";
+}
+
+contentItem();
+
+//Question 8
+
+let listItem = document.querySelector("#services");
+
+function addListItem() {
+  listItem.innerHTML = "<li>" + "Item" + "</li>" + listItem.innerHTML;
+}
+
+addListItem();
+
+//Question 9
+//NEED ANSWER
+let serviceList = document.querySelector(".service-list");
+
+function removeClass() {
+  serviceList.innerHTML = "";
+}
+
+removeClass();
+
+//Question 10
+
+let hideElement = document.querySelector("#hide");
+
+function letsHideElement() {
+  hideElement.hidden = true;
+}
+
+letsHideElement();
